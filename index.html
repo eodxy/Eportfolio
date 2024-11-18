@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eoin O'Driscoll | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <!-- Light/Dark Mode Toggle -->
+    <div class="mode-toggle">
+        <label>
+            <input type="checkbox" id="theme-switch">
+            <span class="slider"></span>
+        </label>
+        <span id="mode-label">Light Mode</span>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Eoin O'Driscoll</h1>
+        <p>Welcome to My Digital Portfolio!</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi my name is Eoin, I am an undergraduate software engineering student currently in my 4th and final year attending TUS Midlands, Midwest. This is a webpage created by me showcasing my portfolio and skills with relative projects attached.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-overview">
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <img src="images/Java.jpg" alt="Programming Languages Icons">
+                <p>Proficient in Python, Java, JavaScript, SQL, and PHP. I use these languages to build robust and efficient solutions.</p>
+            </div>
+    
+            <!-- Web Development -->
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <img src="images/WebDev.png" alt="Web Development Icon">
+                <ul>
+                    <li>HTML, CSS, and JavaScript expertise</li>
+                    <li>Experience with front-end frameworks</li>
+                    <li>Back-end development and web security</li>
+                    <li>Version control (Git) and hosting</li>
+                </ul>
+            </div>
+    
+            <!-- Database Management -->
+            <div class="skill-category">
+                <h3>Database Management</h3>
+                <img src="images/DB.jpg" alt="Database Management Icon">
+                <p>Skilled in designing, managing, and querying relational databases using SQL. Familiar with database optimization and security practices.</p>
+            </div>
+    
+            <!-- Agile & SDLC -->
+            <div class="skill-category">
+                <h3>Software Development Lifecycle (SDLC) & Agile</h3>
+                <img src="images/Agile.jpg" alt="Agile and SDLC Icon">
+                <p>Experienced in applying Agile methodologies and managing projects through iterative development cycles.</p>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <!-- App Creation -->
+        <div class="project">
+            <h3>App Creation</h3>
+            <div class="carousel">
+                <img src="images/Screenshot 2024-05-02 102322.png" alt="App Creation Screenshot 1">
+                <img src="images/1.png" alt="App Creation Screenshot 2">
+                <img src="images/ProductLISTING.png" alt="App Creation Screenshot 3">
+            </div>
+            <p>
+                Application for sales reps for Oliver Carty (work placement).
+                <a href="Downloads/OliverCartySRA" download class="download-button">Download APK</a>
+            </p>
+        </div>
+        
+        <!-- Smart Mirror -->
+        <div class="project">
+            <h3>Smart Mirror</h3>
+            <div class="carousel">
+                <img src="images/Pi1.jpg" alt="Smart Mirror Screenshot 1">
+                <img src="images/Pi2.png" alt="Smart Mirror Screenshot 2">
+                <img src="images/Pi3.jpg" alt="Smart Mirror Screenshot 3">
+            </div>
+            <p>Raspberry Pi (Project 4).</p>
+        </div>
+    </section>    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Eoin O'Driscoll. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="Script.js"></script>
+</body>
+</html>
